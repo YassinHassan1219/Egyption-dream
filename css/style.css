@@ -87,6 +87,9 @@ body{
 }
 .header .logo{
     height: 60px;
+    margin: 0px 0px 0px 10px;
+    display: flex;
+    align-items: center;
 }
 .header .links{
     position: relative;
@@ -203,6 +206,7 @@ body{
     background-color: var(--main-color);
     text-align: center;
     padding: 20px;
+    border-radius: 32px;
 }
 .topices .contaner .t-box a{
     text-decoration: none;
@@ -228,8 +232,6 @@ body{
     padding-bottom: var(--Section-padding);
     background-color: #f6f6f6;
     border-bottom: 1px solid var(--second-color);
-    border-radius: 0px 0px 32px 32px;
-
 }
 .tc .t .contaner{
     display: grid;
@@ -260,6 +262,7 @@ body{
     align-items: center;
     padding: 30px;
     background-color: var(--main-color);
+    border-radius: 32px;
 }
 .tc .t .t-text .info-text i{
     font-size: 50px;
@@ -280,6 +283,9 @@ body{
     margin: 0px;
     display: grid;
     justify-content: center;
+}
+.tc .t .t-img img:first-child{
+    margin-bottom: 10px;
 }
 .tc .t .topic-v{
     display: grid;
@@ -302,20 +308,27 @@ body{
 }
 @media (max-width: 767px) {
     .tc .t .topic-v video{
-        width: 320px;
+        width: 290px;
         height: 250px;
     }
 }
 /* End t */
 /* Start atch */
 .atch{
+    background-color: #f6f6f6; 
+}
+.atch .contaner{
+    background-color: #f6f6f6;
     border-bottom: 1px solid var(--second-color);
-    border-radius: 0px 0px 32px 32px;
 }
 .atch h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0px;
+    padding-top: var(--Section-padding);
+    padding-bottom: var(--Section-padding);
+    font-size: 60px;
 }
 .atch .contaner .f-links{
     display: flex;
@@ -349,6 +362,9 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.abm .contaner video{
+    margin-top: 40px;
 }
 @media (min-width: 992px) {
     .abm .contaner video{
