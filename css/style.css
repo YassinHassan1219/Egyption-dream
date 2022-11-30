@@ -450,13 +450,14 @@ body{
     align-items: center;
     margin-top: 35px;
 }
-.footer .dm{
+.footer .dm .dp{
+    margin: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.footer .dm .design,.programming{
-    margin: 20px;
+.footer .dm .dp h1{
+    margin: 0px;
 }
 /* End footer */
